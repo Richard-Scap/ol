@@ -47,6 +47,7 @@ GEM
     ffi (1.9.14)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+    highline (1.7.8)
     i18n (0.7.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -65,8 +66,12 @@ GEM
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
+    options (2.3.2)
     pg (0.18.4)
     pkg-config (1.1.7)
+    progress_bar (1.0.5)
+      highline (~> 1.6)
+      options (~> 2.3.0)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -129,6 +134,7 @@ DEPENDENCIES
   byebug
   listen (~> 3.0.5)
   pg
+  progress_bar
   pry
   puma (~> 3.0)
   rails (~> 5.0.0)

@@ -1,4 +1,7 @@
 require 'csv'
+require 'progress_bar'
+
+bar = ProgressBar.new(50000, :bar, :counter, :percentage, :elapsed)
 
 csv_text = File.open('engineering_project_businesses.csv')
 CSV.foreach(csv_text, :headers => true) do |row|
@@ -15,6 +18,6 @@ CSV.foreach(csv_text, :headers => true) do |row|
 	b.website = row['website']
 	b.created_at = row['created_at']
 	b.save
-	puts "#{Business.count} businesses"
+	bar.increment!
 end
 
