@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20160804002339) do
   enable_extension "plpgsql"
 
   create_table "businesses", force: :cascade do |t|
-    t.string  "uuid"
+    t.string   "uuid"
     t.string   "name"
     t.string   "address"
     t.string   "address2"

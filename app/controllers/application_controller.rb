@@ -1,13 +1,13 @@
 class ApplicationController < ActionController::API
-
-	def meta(index)
+	# metadata for pagination
+	def meta(obj)
 		@meta = {
-	    :current_page => index.current_page,
-	    :per_page => index.per_page,
-			:total_pages => index.total_pages,
-			:current_entries => index.to_a.min.id..index.to_a.max.id,
-	    :total_entries => index.total_entries,
-	    :entries => index
+			:current_page => obj.current_page,
+			:per_page => obj.per_page,
+			:total_pages => obj.total_pages,
+			:current_entries => obj.to_a.min.id..index.to_a.max.id,
+			:total_entries => obj.total_entries,
+			:entries => obj
 		}
 	end
 end
