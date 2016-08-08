@@ -1,27 +1,48 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to run the API
+==================
 
-Things you may want to cover:
+Getting Started
+---------------
 
-* Ruby version
+- Clone the repository
+    $ git clone https://github.com/Richard-Scap/ol.git
 
-* System dependencies
+- Run bundle
+    $ bundle
 
-* Configuration
+Database Creation & Initialization *(note: we are using PostgreSQL)*
+--------------------
 
-* Database creation
+- Create development, test, and production databases
+    mydb=# CREATE DATABASE ol_development
+    mydb=# CREATE DATABASE ol_test
+    mydb=# CREATE DATABASE ol_production
 
-* Database initialization
+- Migrate db
+    $ rails db:migrate
 
-* How to run the test suite
+- Seed db
+    $ rails db:seed (this may take a few minutes)
 
-* Services (job queues, cache servers, search engines, etc.)
+Running the API
+---------------
+- Serve API on localhost:3000
+    $ rails start
 
-* Deployment instructions
+- To get the index, go to localhost:3000/api/businesses in your browser
 
-* ...
+- To get a particular business, go to localhost:3000/api/businesses/:id and replace ':id' with the id of the business you are looking for.
 
+Testing
+-------
 
-CSV Columns: id,uuid,name,address,address2,city,state,zip,country,phone,website,created_at
+    $rails test
+
+Acknowledgements
+----------------
+*progress_bar gem by Paul Sadauskas for seeding db*
+    gem 'progress_bar'
+*Pagination gem by Mislav Marohnić for index end point*
+    gem 'will_paginate', '3.1.0'
