@@ -6,34 +6,36 @@ Getting Started
 
 - Clone the repository
 
-    $ git clone https://github.com/Richard-Scap/ol.git
+      $ git clone https://github.com/Richard-Scap/ol.git
 
 - Run bundle
 
-    $ bundle
+      $ bundle
 
 Database Creation & Initialization *(note: we are using PostgreSQL)*
 --------------------
 
 - Create development, test, and production databases
 
-    mydb=# CREATE DATABASE ol_development
-    mydb=# CREATE DATABASE ol_test
-    mydb=# CREATE DATABASE ol_production
+      mydb=# CREATE DATABASE ol_development
+
+      mydb=# CREATE DATABASE ol_test
+
+      mydb=# CREATE DATABASE ol_production
 
 - Migrate db
 
-    $ rails db:migrate
+      $ rails db:migrate
 
 - Seed db
 
-    $ rails db:seed (this may take a few minutes)
+      $ rails db:seed (this may take a few minutes)
 
 Running the API
 ---------------
 - Serve API on localhost:3000
 
-    $ rails start
+      $ rails start
 
 - To get the index, go to localhost:3000/api/businesses in your browser
 
@@ -42,7 +44,7 @@ Running the API
 Testing
 -------
 
-    $rails test
+      $rails test
 
 Acknowledgements
 ----------------
