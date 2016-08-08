@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# Rails 5
 gem 'rails', '~> 5.0.0'
 # PosegreSQL
 gem 'pg'
@@ -9,6 +9,8 @@ gem 'pg'
 gem 'puma', '~> 3.0'
 #progress bar for seeding db
 gem 'progress_bar'
+# Pagination for index end point
+gem 'will_paginate', '3.1.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
