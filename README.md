@@ -38,14 +38,13 @@
 
 - To get a particular business, go to localhost:3000/api/businesses/:id and replace ':id' with the id of the business you are looking for.
 
-Testing
--------
+###Testing
 
   `$rails test`
 
 Acknowledgements
 ----------------
-*progress_bar gem by Paul Sadauskas for seeding db*
+- *progress_bar gem by Paul Sadauskas for seeding db*
     `gem 'progress_bar'`
-*Pagination gem by Mislav Marohnić for index end point*
+- *Pagination gem by Mislav Marohnić for index end point*
     `gem 'will_paginate', '3.1.0'`
