@@ -5,11 +5,11 @@
 
 - Clone the repository
 
-      $ git clone https://github.com/Richard-Scap/ol.git
+  `$ git clone https://github.com/Richard-Scap/ol.git`
 
 - Run bundle
 
-      $ bundle
+  `$ bundle`
 
 ###Database Creation & Initialization *(note: we are using PostgreSQL)*
 
