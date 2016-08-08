@@ -1,27 +1,40 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  id: 1
-  uuid: 1
-  name: MyString
-  address: MyString
-  address2: MyString
-  city: MyString
-  state: MyString
-  zip: 1
-  country: MyString
-  phone: MyString
-  website: MyString
+biz_one:
+  id: 0
+  uuid: 2859d6e0-1cb9-4fe9-bc00-97823a9fa4cb
+  name: Yundt-Flatley
+  address: 1386 Lim Brooks
+  address2: Suite 517
+  city: Lake Betsy
+  state: IA
+  zip: 19416
+  country: US
+  phone: 4034880719
+  website: http://www.halvorson.com/
 
-two:
+biz_two:
   id: 1
-  uuid: 1
-  name: MyString
-  address: MyString
-  address2: MyString
-  city: MyString
-  state: MyString
-  zip: 1
-  country: MyString
-  phone: MyString
-  website: MyString
+  uuid: d083169c-4340-4a07-b390-07d297823efd
+  name: Botsford Ltd
+  address: 74883 Hane Prairie
+  address2:
+  city: Margrettburgh
+  state: KS
+  zip: 99840
+  country: US
+  phone: 2462288476
+  website: http://bergstrom.org/
+
+biz_three:
+  id: 2
+  uuid: 744f1e2c-7e92-41cd-8549-5eebd80393ac
+  name: "Turner, Kris and Conroy"
+  address: 194 Reino Ways
+  address2: Apt. 735
+  city: East Harlon
+  state: NH
+  zip: 15676
+  country: US
+  phone: 1788019885
+  website: http://schmitt.net/
