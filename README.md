@@ -41,7 +41,9 @@
 
 Acknowledgements
 ----------------
-- *progress_bar gem by Paul Sadauskas for seeding db*
+- *ProgressBar gem by Paul Sadauskas for seeding db*
     `gem 'progress_bar'`
 - *Pagination gem by Mislav Marohnić for index end point*
     `gem 'will_paginate', '3.1.0'`
+- *Rails 5 gem by the rails team, for the API flavor of RoR*
+-   `gem 'rails', '5.0.0'`
