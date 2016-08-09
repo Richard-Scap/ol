@@ -3,7 +3,7 @@ module Api
     # render json for all businesses with pagination & include pagination metadata
     def index
       @businesses = Business.all.paginate(page: params[:page], per_page: 50).order('id asc')
-      render :json => meta(@businesses)
+      render :json => index_info(@businesses), root: 'data'
     end
 
     # render json for a business

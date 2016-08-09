@@ -40,7 +40,6 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.1)
     builder (3.2.2)
-    byebug (9.0.5)
     coderay (1.1.1)
     concurrent-ruby (1.0.2)
     erubis (2.7.0)
@@ -132,7 +131,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
   listen (~> 3.0.5)
   pg
   progress_bar

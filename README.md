@@ -14,19 +14,16 @@
 ###Database Creation & Initialization *(note: we are using PostgreSQL)*
 
 - Create development, test, and production databases
-    ```
-    mydb=# CREATE DATABASE ol_development
-    mydb=# CREATE DATABASE ol_test
-    mydb=# CREATE DATABASE ol_production
-    ```
+
+  `$ rails db:create:all`
 
 - Migrate db
 
   `$ rails db:migrate`
 
-- Seed db
+- Seed db (this may take a few minutes)
 
-  `$ rails db:seed (this may take a few minutes)``
+  `$ rails db:seed`
 
 ###Running the API
 

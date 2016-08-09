@@ -1,7 +1,7 @@
 class CreateBusinesses < ActiveRecord::Migration[5.0]
   def change
     create_table :businesses do |t|
-      t.integer :uuid
+      t.string :uuid
       t.string :name
       t.string :address
       t.string :address2
