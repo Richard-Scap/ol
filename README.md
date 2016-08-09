@@ -31,7 +31,7 @@
 
   `$ rails start`
 
-- To get the index, go to (localhost:3000/api/businesses) in your browser
+- To get the index, go to <localhost:3000/api/businesses> in your browser
 
 - To get a particular business, go to localhost:3000/api/businesses/:id and replace ':id' with the id of the business you are looking for.
 
