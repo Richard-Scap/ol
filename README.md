@@ -46,4 +46,4 @@ Acknowledgements
 - *Pagination gem by Mislav Marohnić for index end point*
     `gem 'will_paginate', '3.1.0'`
 - *Rails 5 gem by the rails team, for the API flavor of RoR*
-    `gem 'rails', '5.0.0'`
+    `gem 'rails', '~> 5.0.0'`
